@@ -12,7 +12,7 @@ import gus.ifpe.edu.ppo.Repository.LoginDAO;
 public class AutorizacaoService implements UserDetailsService {
 
 	@Autowired
-	private LoginDAO dao;
+	private LoginDAO dao ;
 
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
